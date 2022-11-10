@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Responsive metatag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <meta charset="utf-8">
+    <meta name="description" content=" Anthony's First Webpage is a webpage used for Anthony's HTML class." />
+
+    <title>Anthony's First Webpage</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <!-- Introductory content -->
+            <img src="images/header.jpg" class="img-fluid" alt="headerWebb" title="James Webb Picture">
+
+            <h1 class="display-2 text-center border-bottom">Welcome to Anthony's First Webpage</h1>
+            <p class="lead text-center">
+                This page is being used to help Anthony learn how to use HTML.
+            </p>
+        </div>
+    </header>
+
+    <nav class="menu text-center">
+        <ul class="list-unstyled">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <main class="container">
+        <!-- Dominant content of the web page -->
+        <h2 class="text-center">Hubble and Webb's First Image</h2>
+        <section class="my-7 row">
+            <!-- Generic standalone section of a document -->
+
+            <article class="col">
+                <p>
+                    This "first light" image from <a
+                        href="https://en.wikipedia.org/wiki/Hubble_Space_Telescope">Hubble</a> was
+                    released in May 1990, to illustrate the telescope's improved resolution when compared to
+                    ground-based
+                    observatories. On the right is part of the first image taken with the Hubble Space Telescope's Wide
+                    Field/Planetary Camera. It is shown with a ground-based picture of the same region of the sky from
+                    Las Campanas
+                    Observatory in Chile. The Las Campanas picture was taken with a 100-inch telescope and it is typical
+                    of
+                    high-quality pictures obtained from the ground.
+
+
+                </p>
+                <p>
+                <div class="text-center">
+                    <img src="images/Hubblefirst.jpg" class="img-fluid" alt="Hubble First" title="Hubble's First Image">
+                </div>
+                </p>
+                </p>
+            </article>
+
+            <article class="col">
+                <p>
+                    The dawn of a new era in astronomy has begun as the world gets its first look at the full
+                    capabilities of NASA’s <a href="https://en.wikipedia.org/wiki/James_Webb_Space_Telescope"> James
+                        Webb Space Telescope</a>, a partnership with ESA (European Space Agency) and CSA (Canadian Space
+                    Agency). The telescope’s first full-color images and spectroscopic data were released during a
+                    televised broadcast at 10:30 a.m. EDT (14:30 UTC) on Tuesday, July 12, 2022, from NASA’s Goddard
+                    Space Flight Center in Greenbelt, Maryland. These listed targets below represent the first wave of
+                    full-color scientific images and spectra the observatory has gathered, and the official beginning of
+                    Webb’s general science operations. <em>They were selected by an international committee of
+                        representatives from NASA, ESA, CSA, and the Space Telescope Science Institute.</em>
+                </p>
+                <p>
+                <div class="text-center">
+                    <img src="images/WebbFirst.jpg" class="img-fluid" alt="Webb First" title="Webb's First Image">
+                </div>
+                </p>
+                </p>
+            </article>
+
+
+        </section>
+
+
+
+        <section class="my-4 row">
+            <article class="col-lg">
+                <!-- Self-contained content intended to be independently distributable -->
+                <h3 class="display-6">Things That Are Cool About Space.</h3>
+                <figure>
+                    <div>
+                        <img src="images/cool.jpg" class="img-fluid rounded-pill" alt="Cool!" title="Cool Space!">
+                    </div>
+                    <figcaption>
+                        <Strong class="text-decoration-underline fw-normal">Space is a very cool place. Here are some
+                            reasons why.</strong>
+                    </figcaption>
+                </figure>
+                <ul class="list-unstyled text-success"><i class="bi bi-hand-thumbs-up-fill"></i>
+                    <li>It has stars.</li>
+                    <li>There is a lot of it.</li>
+                    <li>Possibly has aliens.</li>
+                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                </ul>
+
+            </article>
+
+
+            <article class="col-lg">
+                <h3 class="display-6">Things That Are Not Cool About Space.</h3>
+                <figure>
+                    <div>
+                        <img src="images/alien.jpg" class="img-fluid rounded-pill" alt="Scary" title="Scary Alien">
+                    </div>
+                    <figcaption>
+                        Space can also be bad.
+                    </figcaption>
+                </figure>
+                <ul class="list-unstyled text-danger fw-bold"><i class="bi bi-exclamation-triangle"></i>
+                    <li>Cold.</li>
+                    <li>Scary.</li>
+                    <li>Possibly has aliens.</li>
+                    <i class="bi bi-exclamation-triangle"></i>
+                </ul>
+
+            </article>
+
+            <article class="text-center">
+                <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal"
+                    data-bs-target="#feedbackModal">
+                    <span class="d-flex align-items-center">
+                        <i class="bi-chat-text-fill me-2"></i>
+                        <span class="small">Book Your Spaceship Here</span>
+                    </span>
+                </button>
+            </article>
+        </section>
+
+
+
+        <!-- Slider -->
+
+        <div id="carousel-films" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/SW.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/halo.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/dune.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+        <!-- End of Slider -->
+
+    </main>
+    <hr>
+
+    <!-- Defines content aside from the content it is placed in -->
+    <aside>
+        <h2>Have you been to space?</h2>
+        <p>
+            We want to know about your experiences.
+        </p>
+        <!-- A form asking for page viewer's experiences -->
+        <form action="https://api.sheetmonkey.io/form/cKLUfCHc2JAiYZzy4J7Mjc" method="post">
+            <fieldset>
+                <legend>Personalia:</legend>
+                <label for="name"><span class="fw-bold">Name: </span> </label>
+                <input required type="text" name="name" id="name" placeholder="Write your name"><br>
+                <br>
+                <label for="email"><span class="fw-bold">Email: </span>: </label>
+                <input required type="email" name="email" id="email" placeholder="Write your email">
+                <br><br>
+                <label for="birthday"><span class="fw-bold">Birthday: </span> </label>
+                <input type="date" name="Birthday" id="Birthday" placeholder="Write your date of birth"><br>
+                <br><br>
+                <label for="User URL">User Personal Blog URL: </label>
+                <input type="URL" name="homepage" id="homepage" placeholder="Write your personal blog URL">
+                <br><br>
+                <label for="hour">Hours spent online: </label>
+                <input type="text" name="hours" id="hours"
+                    placeholder="Write the amount of hours spent on average online">
+                <br><br>
+                <p>What type of internet user are you?</p>
+                <input required type="radio" id="exp" name="intuser" value="Expert">
+                <label for="Expert">Expert</label><br>
+                <input type="radio" id="ave" name="intuser" value="Average">
+                <label for="Average">Average</label><br>
+                <br>
+
+                <p>What region are you from?</p>
+                <input type="radio" id="NA" name="region" value="North America">
+                <label for="North America">North America</label><br>
+
+                <input type="radio" id="SA" name="region" value="South America">
+                <label for="South America">South America</label><br>
+
+                <input type="radio" id="EU" name="region" value="Europe">
+                <label for="Europe">Europe</label><br>
+
+                <input type="radio" id="Asia" name="region" value="Asia">
+                <label for="Asia">Asia</label><br>
+
+                <input type="radio" id="Afr" name="region" value="Africa">
+                <label for="Africa">Africa</label><br>
+
+                <input type="radio" id="AUS" name="region" value="Australia">
+                <label for="Australia">Australia</label><br>
+
+                <br><br>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </aside>
+    <footer>
+        <!-- Defines a footer for a document or section -->
+        &copy; 2022 Anthony's First Website.
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+<!-- Feedback Modal-->
+<div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-gradient-primary-to-secondary p-4">
+                <h5 class="modal-title font-alt text-white" id="feedbackModalLabel">Send feedback</h5>
+                <button class="btn-close btn-close-white" type="button" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+            </div>
+            <div class="modal-body border-0 p-4">
+                <form>
+                    <div class="form-group mb-4">
+                        <label for="email" class="form-label">Email address:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group mb-4">
+                        <label for="name" class="form-label">Name:</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group mb-4">
+                        <label for="comment" class="form-label">Why you should be chosen:</label>
+                        <textarea class="form-control" id="comment" rows="3"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-secondary rounded-pill btn-lg disabled w-100" id="submitButton"
+                            type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of Feedback Modal-->
+
+</html>
